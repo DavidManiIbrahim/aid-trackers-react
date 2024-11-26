@@ -99,14 +99,14 @@
   /* Responsive Styling */
   @media (max-width: 600px) {
     .container{
-      border: 1px solid;
+      /* border: 1px solid; */
     height: 210vh;
 /*  */
   }
 
   .head{
     margin-top: 50px;
-    border: 1px solid #0070f3;
+    /* border: 1px solid #0070f3; */
   }
   .testimonialText{
     margin-top: 20px;

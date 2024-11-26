@@ -31,11 +31,11 @@ const Navbar = () => {
                 <div></div>
             </div>
             <ul className={`${styles.navLinks} ${isOpen ? styles.showMenu : ''}`}>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#how-it-works">How it Works</a></li>
-                <li><a href="#features">Features</a></li>
-                <li><a href="#beneficiary">Beneficiaries</a></li>
-                <li><a href="#donors">Donors</a></li>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/howitworks">How it Works</Link></li>
+                <li><Link to="/features">Features</Link></li>
+                <li><Link to="/beneficiaries">Beneficiaries</Link></li>
+                <li><Link to="/donors">Donors</Link></li>
                 <button className={styles.WalletButton} >Connect Wallet</button>
             </ul>
 
