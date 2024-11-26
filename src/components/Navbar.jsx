@@ -3,6 +3,8 @@ import styles from "../styles/Navbar.module.css";
 import logo from "../assets/images/Union.png"
 import { Link } from "react-router-dom";
 
+
+
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     const toggleMenu = () => {
