@@ -53,7 +53,7 @@
     gap: 20px;
     /* border: 1px solid; */
     align-items: center;
-    right: 15%;
+    right: 55%;
     position: relative;
     text-align: center;
   }
@@ -80,8 +80,10 @@
     background: #007bff;
     color: white;
     border: none;
-    right: 50px;
-    position: relative;
+    left: 680px;
+    width: 140px;
+    border: 1px solid;
+    position: absolute;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
@@ -149,7 +151,7 @@
   width: 50%;
   background-color: #333;
   padding: 1em;
-  /* right: 40px; */
+  /* left: 40px; */
   /* border-radius: 8px; */
 }
 
