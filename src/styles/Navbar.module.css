@@ -64,10 +64,17 @@
     color: #333;
     justify-content: center;
   }
-  
+
  .nav a:hover{
-  border-bottom: 1px solid ;
+  color: #007bff;
+  font-weight: bold;
+  background: #fff;
+  padding: 20px;
+  border-bottom: 3px solid;
+  transition:  0.3s linear;
 }
+
+
 
   .contactButton {
     background: #007bff;
