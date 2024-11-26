@@ -24,8 +24,8 @@ const Navbar = () => {
                 <Link to="/features">Features</Link>
                 <Link to="/beneficiaries">Beneficiaries</Link>
                 <Link to="/donors">Donors</Link>
-            <button className={styles.contactButton} >Connect Wallet</button>
             </nav>
+            <button className={styles.contactButton} >Connect Wallet</button>
             
             <div className={`${styles.menuIcon} ${isOpen ? styles.open : ''}`} onClick={toggleMenu}>
                 <div></div>
